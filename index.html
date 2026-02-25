@@ -296,7 +296,7 @@ var CHART_COLOR={exam:'#ef4444',quiz:'#f97316',moed:'#a855f7',work:'#06b6d4'};
 
 function getCat(t){
   if(/מבחן|בוחן|מועד ב|עבודת כתה|תאוריה/.test(t)) return 'assessment';
-  if(/חופש|פורים|פסח|ל.ג|שבועות|שואה|זכרון|העצמאות|שישה מיליון|ערב יום|לומדים עד|חוזרים/.test(t)) return 'holiday';
+  if(/חופש|פורים|פסח|ל.ג|שבועות|לומדים עד/.test(t)) return 'holiday';
   return 'other';
 }
 
